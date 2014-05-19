@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+.maintable {
+	width: 80%;
+	height: 60%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border: 1px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: black;
+	font: bold;
+}
+
+.maintable tbody tr {
+	border: 1px solid #black;
+}
+
+.maintable tbody tr td {
+	text-align: center;
+	display: inline-block;
+}
+
+.maintable tbody tr td input {
+	width: 80%;
+}
+
+.maintable tbody tr td input[type ="radio"]{
+	width:10%;
+	font: #f00;
+}
+
+.maintable caption {
+	font: 20px bold;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border: 1px solid #000000;
+	line-height: 200%;
+	border-bottom: 0;
+}
+
+.maintable tbody tr td.tip {
+	border-top: 2px solid #000000;
+	font: 20px bold #000000;
+	text-align: left;
+}

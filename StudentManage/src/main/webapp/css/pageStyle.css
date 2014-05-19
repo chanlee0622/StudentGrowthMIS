@@ -1,0 +1,192 @@
+body {
+	text-align: center;
+	height: 700;
+	background: #e3e3e3;
+}
+
+form {
+	margin: 0 auto;
+	border: 1px solid #f00;
+	background: #e3e3e3;
+	height: 900px;
+	border: 1px solid #f00;
+}
+
+a:hover {
+	color: black;
+}
+
+.border {
+	width: 1024;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.topArea {
+	width: 1024px;
+	background: #000000;
+	height: 40px;
+	color: #ffffff;
+	font: 18px bold;
+	background: #000000;
+}
+
+.topArea #mainPageLink {
+	float: left;
+	margin-left: 3%;
+	width: 30%;
+	display: table-cell;
+}
+
+.topArea #userActionLink {
+	float: right;
+	height: 100%;
+	width: 20%;
+}
+
+.topArea #mainPageLink img {
+	padding-left: 5%;
+	float: left;
+	width: 30%;
+	height: 100%;
+	padding-right: 5%;
+	padding-left: 5%;
+	border-right: 2px solid #e3e3e3;
+	border-left: 2px solid #e3e3e3;
+	border-radius: 10px;
+}
+
+.topArea #mainPageLink a {
+	padding-left: 5%;
+	font: 20px bold;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 2%;
+	color: #e3e3e3;
+	border-left: 2px solid #e3e3e3;
+	margin-left: 2%;
+}
+
+.topArea #userActionLink img {
+	float: left;
+	margin: 0;
+	width: 20%;
+	height: 90%;
+	margin-top: 2%;
+}
+
+.topArea #userActionLink a {
+	margin-top: 4%;
+	display: inline-block;
+	color: #e3e3e3;
+	text-decoration: none;
+}
+
+.topArea #userActionLink a:hover {
+	color: #408080;
+	font: 120% bold;
+}
+
+.actionLinkArea {
+	height: 15%;
+	border: 1px solid #408080;
+	background-color: #408080;
+	margin: 0;
+	width: auto;
+}
+
+.actionLinkArea table {
+	width: 100%;
+	height: 80%;
+	margin-top: 1%;
+}
+
+.actionLinkArea table tr  td {
+	line-height: 45%;
+	border-right: 2px solid #e3e3e3;
+	border-radius: 2px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.actionLinkArea table tr  td div {
+	text-align: center;
+	vertical-align: middle;
+	width: 20%;
+	float: left;
+	margin-left: 15%;
+}
+
+.actionLinkArea table tr  td div img {
+	margin-left: 8%;
+}
+
+.actionLinkArea table tr  td div font {
+	font: 18px bold;
+	color: #e3e3e3;
+}
+
+.actionLinkArea table tr .last {
+	border-right: 3px solid #408080;
+}
+
+.actionLinkArea table tr  td table {
+	margin-right: 23%;
+	width: 50%;
+	float: right;
+	border: 0;
+}
+
+.actionLinkArea table tr  td table tr td {
+	border: 0;
+	font: 14px;
+	color: #e3e3e3;
+}
+
+.actionLinkArea table tr  td table tr td a {
+	text-decoration: none;
+	color: #e3e3e3;
+}
+
+.actionLinkArea table tr  td table tr td a:hover {
+	color: black;
+}
+
+.contentArea {
+	width: 1024px;
+	height: 68%;
+}
+
+.contentArea iframe {
+	width: 1024px;
+	height: 100%;
+	border: 0;
+}
+
+.footerArea {
+	width: 1024px;
+	height: 60px;
+	margin: 0 auto;
+	background: #408080;
+	text-align: center;
+	display: inline-block;
+	background: #408080;
+	bottom: 0;
+}
+
+.footerArea table {
+	width: 60%;
+	margin-left: 20%;
+	height: 100%;
+}
+
+.footerArea table tr td {
+	font: 20px;
+	color: #e3e3e3;
+	text-align: center;
+}
+
+.footerArea table tr td.active {
+	border-bottom: 2px solid #e3e3e3;
+}
