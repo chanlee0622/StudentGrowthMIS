@@ -1,0 +1,80 @@
+/*  表单的导航样式-横向    */
+.nav{
+	border: 1px solid #5CACEE;
+	/*border:1px solid #EEA2AD;*/
+	width: 900px;
+	height:30px;
+	behavior:url(PIE.htc);
+	border-radius:3px;
+	background: #5CACEE;
+	/*background: #EEA2AD	;*/
+	display: inline-table;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav li{
+	width: 120px;
+	display: inline-table;
+	line-height: 30px;
+	padding: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: -9px;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+.nav li a{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	font: bold;
+	font-size: 14px;
+}
+.nav li a:hover{
+	padding: 4px 0 2px 0;
+	color: #000000;
+}
+.nav li a:active{
+	color: #e3e3e3;	
+}
+
+/*        表单的导航样式-纵向               */
+.nav-vertical{
+	border: 1px solid #5CACEE;
+	/*border:1px solid #EEA2AD;*/
+	width: 200px;
+	behavior:url(PIE.htc);
+	border-radius:5px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border-top: 23px solid #5CACEE;
+	/*border-top:23px solid #EEA2AD;*/
+}
+.nav-vertical li{
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #5CACEE;
+	/*border-top: 1px solid #EEA2AD;*/
+}
+.nav-vertical li a{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #5CACEE;
+	/*color: #EEA2AD;*/
+	font: bold;
+	font-size: 14px;
+}
+.nav-vertical li a:hover{
+	padding: 4px 0 2px 0;
+	color: #000000;
+}
+.nav-vertical li a:active{
+	color: #e3e3e3;	
+}
