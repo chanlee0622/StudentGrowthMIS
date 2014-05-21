@@ -1,0 +1,61 @@
+/* 普通表格样式 */
+.table{
+	border: 1px solid #5CACEE;
+	width: 900px;
+	text-align: center;
+	border-collapse: collapse;
+	behavior:url(PIE.htc);
+	border-radius: 3px;
+	padding: 0;
+	margin:0;
+}
+/* 表头标题蓝 */
+.top-panel{
+
+	height: 40px;
+	width: 900px;
+	line-height: 40px;
+	font-size: 18px;
+	font: bold;
+	color: #ffffff;
+	display: inline-table;
+	padding: 0;
+	margin: 0;
+
+}
+.top-panel th{
+	background-color: #5CACEE;
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.table tbody tr{
+	line-height: 35px;
+	max-width: 900px;
+    width: 900px;
+}
+.table tbody tr td{
+	border-top: 1px solid #5CACEE;
+	border-left: 1px solid #5CACEE;
+	line-height: 35px;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font: bolder;
+	text-align: center;
+	width: 145px;
+	height: 35px;
+    overflow: hidden;
+}
+.table tbody tr td:hover{
+	background-color: #5CACEE;
+	color: #ffffff;
+	font:bolder;
+}
+.img-div{
+    overflow: hidden;
+}

@@ -1,0 +1,55 @@
+@import url(comman/ul.css);
+@import url(comman/table.css);
+body{
+    vertical-align: middle;
+}
+#navDiv{
+    max-width: 900px;
+    width: 900px;
+}
+.nav{
+    /*margin-top: 125px;*/
+    /*margin-right: 60px;*/
+    behavior:url(comman/PIE.htc);
+    list-style: none;
+}
+
+.table tbody tr td{
+    height: 135px;
+    width: 145px;
+    border:1px solid #000000;
+}
+.img-tip{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #5CACEE;
+    opacity: 0.8;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    z-index: 2;
+    font-size: 12px;
+}
+.img-tip a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+}
+.img-tip a:hover{
+    color: #000000;
+}
+.img-div{
+    height: 148px;
+}
+.img-div img{
+    margin: 0 0 4px 0;
+    padding: 0;
+    max-width: 290px;
+    max-height: 270px;
+}

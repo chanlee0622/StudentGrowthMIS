@@ -1,0 +1,60 @@
+@import url(comman/input.css);
+@import url(comman/button.css);
+.loginForm{
+    z-index: 3;
+    padding: 0;
+    margin: -170px 0  0 -150px;
+    display: none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    behavior: url(comman/PIE.htc);
+    border:1px solid #5cacee;
+    border-top: 25px solid #5cacee;
+    border-bottom: 25px solid #5cacee;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 300px;
+    height: 170px;
+    box-shadow: 0 0 10px #666;
+}
+.inputDiv{
+    margin-left: 28px;
+    margin-top: 20px;
+}
+.submitDiv{
+    text-align: right;
+}
+.submitDiv input{
+    margin:15px 10px 0  0 ;
+}
+.loginFormDiv{
+    z-index:9999;
+    position:fixed;
+    top:50%;
+    left:50%;
+    width:460px;
+    height:300px;
+    margin:-200px 0 0 -330px;
+    border-radius:5px;
+    border:solid 2px #666;
+    background-color:#fff;
+    display:none;
+    box-shadow: 0 0 10px #666;
+    text-align: center;
+    vertical-align: middle;
+}
+.theme-popover-mask {
+    z-index: 2;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    display:none
+}

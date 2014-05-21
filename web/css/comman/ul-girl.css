@@ -1,13 +1,13 @@
 /*  表单的导航样式-横向    */
 .nav{
-	border: 1px solid #5CACEE;
-	/*border:1px solid #EEA2AD;*/
+	/*border: 1px solid #5CACEE;*/
+	border:1px solid #EEA2AD;
 	width: 900px;
 	height:30px;
 	behavior:url(PIE.htc);
 	border-radius:3px;
-	background: #5CACEE;
-	/*background: #EEA2AD	;*/
+	/*background: #5CACEE;*/
+	background: #EEA2AD	;
 	display: inline-table;
 	text-align: center;
 	padding: 0;
@@ -43,8 +43,8 @@
 
 /*        表单的导航样式-纵向               */
 .nav-vertical{
-	border: 1px solid #5CACEE;
-	/*border:1px solid #EEA2AD;*/
+	/*border: 1px solid #5CACEE;*/
+	border:1px solid #EEA2AD;
 	width: 200px;
 	behavior:url(PIE.htc);
 	border-radius:5px;
@@ -52,15 +52,15 @@
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	border-top: 23px solid #5CACEE;
-	/*border-top:23px solid #EEA2AD;*/
+	/*border-top: 23px solid #5CACEE;*/
+	border-top:23px solid #EEA2AD;
 }
 .nav-vertical li{
 	line-height: 40px;
 	margin: 0;
 	padding: 0;
-	border-bottom: 1px solid #5CACEE;
-	/*border-top: 1px solid #EEA2AD;*/
+	/*border-bottom: 1px solid #5CACEE;*/
+	border-top: 1px solid #EEA2AD;
 }
 .nav-vertical li a{
 	text-decoration: none;
