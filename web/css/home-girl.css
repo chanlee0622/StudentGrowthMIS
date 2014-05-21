@@ -1,0 +1,51 @@
+@import url(comman/ul-girl.css);
+body{
+    vertical-align: middle;
+}
+.nav{
+    /*margin-top: 125px;*/
+    margin-right: 60px;
+    behavior:url(comman/PIE.htc);
+    list-style: none;
+}
+.table{
+    margin-top: 3px;
+    border-collapse: separate;
+    border:0;
+}
+.table tbody tr td{
+    height: 149px;
+    border:0;
+}
+.img-tip{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #EEA2AD;
+    opacity: 0.8;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    z-index: 2;
+    font-size: 12px;
+}
+.img-tip a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+}
+.img-tip a:hover{
+    color: #000000;
+}
+.img-div img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}

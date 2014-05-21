@@ -1,0 +1,63 @@
+.btn{
+	border:1px solid #e3e3e3;
+	background-color: #eeeeee;
+	width: 75px;
+	height: 25px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius: 3px;
+	behavior:url(PIE.htc);
+	color:#000000;
+	padding:0px;
+	margin: 0px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+.btn-mini{
+	width: 60px;
+	height: 20px;
+	color:#000000;
+}
+.btn-large{
+	width: 90px;
+	height: 30px;
+	color:#000000;
+}
+.btn-long{
+	width: 120px;
+	color:#000000;
+}
+
+.btn-success{
+	background: #7CCD7C	;
+	border:1px solid #7CCD7C;
+	color:#ffffff;
+}
+.btn-error{
+	background: #EE4000	;
+	border:1px solid #EE4000;
+	color:#ffffff;
+}
+.btn-warning{
+	background: #EE7942	;
+	border:1px solid #EE7942;
+	color:#ffffff;
+}
+.btn-submit{
+	background: #5CACEE	;
+	border:1px solid #5CACEE;
+	color:#ffffff;
+}
+
+.btn:hover{
+	padding: 2px;
+	border-color:#5CACEE;
+	color:#000000;
+}
+
+.btn:active{
+	background-position: left -10px;
+	padding: 4px 0 1px 0px;
+}
+

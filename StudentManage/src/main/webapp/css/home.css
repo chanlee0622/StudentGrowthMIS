@@ -1,0 +1,40 @@
+@import url(comman/table.css);
+body{
+	text-align: center;
+	background-color: #ffffff;
+	behavior:url(PIE.htc);
+}
+
+.top-navigation{
+	width: 1024px;
+}
+.table-nav{
+	text-align: center;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+.table-nav tbody tr td{
+	border-top: 0;
+	width: 240px;
+	height: 110px;
+}
+.table-nav tbody tr td:hover{
+	background-color:#fff ;
+	color:#000000;
+}
+.table-nav-item{
+
+	border-collapse: collapse;
+
+}
+.table-nav-item tbody tr td{
+	border:0;
+	height: 35px;
+	width: 60px;
+}
+.table-nav-item tbody tr td:hover{
+	background-color: #5CACEE;
+	color: #ffffff;
+	font:bolder;
+}

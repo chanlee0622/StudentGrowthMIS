@@ -1,0 +1,60 @@
+.input-text{
+	width: 150px;
+	height: 20px;
+	behavior:url(PIE.htc);
+	border-radius: 3px;
+	border:1px solid #dddddd;
+	background-color: #ffffff;
+	outline: medium none;
+}
+.input-text:hover{
+	border:1px solid #5CACEE;
+}
+.inputTip{
+	background: none repeat scroll 0 0 transparent;
+	color: #000000;
+	font: bold;
+	height: 20px;
+	line-height: 20px;
+	width: 150px;
+	margin-left: 5px;
+	padding: 0;
+	font-size: 12px;
+}
+.input-uname, .input-upassword{
+	/*background: url("http://sandbox.runjs.cn/uploads/rs/128/bgluez5h/login_bg.jpg") no-repeat scroll 0 0 transparent;*/
+	background:  no-repeat scroll 0 0 transparent;
+	color: #767676;
+	height: 28px;
+	width: 244px;
+	display: inline-block;
+	border:1px solid #dddddd;
+	border-radius:5px;
+
+}
+.input-uname input, .input-upassword input {
+	background: none repeat scroll 0 0 transparent;
+	color: #767676;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	width: 190px;
+	margin:0;
+	padding: 0;
+	margin-top: 4px;
+	border:0;
+}
+/*.input-uname span, .input-upassword span{
+	display: block;
+	float: right;
+	height: 40px;
+	width: 6px;
+}*/
+
+.input-uname:hover, .input-upassword:hover{
+	border:1px solid #5CACEE;
+	border-radius: 5px;
+}
+.input-uname input:focus, .input-upassword input:focus{
+	outline: medium;
+}
